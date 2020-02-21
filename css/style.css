@@ -1,10 +1,18 @@
 /* STYLE FILE */
 
-/* REGOLE GENERALE TUTTA PAGINA */
+/******************************** REGOLE GENERALE TUTTA PAGINA *********************************/
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* CLERAFIX */
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* HEADER */
@@ -14,9 +22,35 @@
 nav{
   /* DEBUG:  */
   background-color: grey;
-  padding: 40px;
   border: 2px solid;
+  height: 100px;
   /* DEBUG:  */
+}
+
+/* BARRA NAVIGAZIONE FIXED */
+#navfixed{
+  padding: 1% 5% 1% 5%;
+
+}
+
+/* BARRA SX FIXED */
+#SX_NavFixed{
+  float: left;
+}
+
+#SX_NavFixed a{
+  /* DEBUG:  */
+  padding: 2% 20px;
+  /* DEBUG:  */
+}
+
+/* BARRA DX FIXED */
+#DX_NavFixed{
+  float: right;
+}
+
+#DX_NavFixed > *{
+  padding: 5px 10px 5px 10px;
 }
 
 /* JUMBOTRON */
