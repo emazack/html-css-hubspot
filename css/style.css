@@ -18,3 +18,12 @@ nav{
   border: 2px solid;
   /* DEBUG:  */
 }
+
+/* JUMBOTRON */
+#jumbotron{
+  /* DEBUG:  */
+  background-color: lightgrey;
+  padding: 200px;
+  border: 2px solid
+  /* DEBUG */
+}
