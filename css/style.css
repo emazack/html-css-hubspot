@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-decoration: none;
 }
 
 /* CLERAFIX */
@@ -15,49 +16,77 @@
   clear: both;
 }
 
-/* HEADER */
+/******************************** HEADER ************************************/
 
 
 /* NAVIGATOR GENERALE */
 nav{
-  /* DEBUG:  */
-  background-color: grey;
-  border: 2px solid;
   height: 100px;
-  /* DEBUG:  */
 }
 
-/* BARRA NAVIGAZIONE FIXED */
+/************** BARRA NAVIGAZIONE FIXED ****************/
 #navfixed{
-  padding: 1% 5% 1% 5%;
-
+  background-color: #edffff;
+  padding: 1% 20%;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
 }
 
 /* BARRA SX FIXED */
 #SX_NavFixed{
+  line-height: 55px;
   float: left;
 }
 
 #SX_NavFixed a{
-  /* DEBUG:  */
-  padding: 2% 20px;
-  /* DEBUG:  */
+  padding: 0% 15px;
 }
 
 /* BARRA DX FIXED */
 #DX_NavFixed{
+  line-height: 55px;
   float: right;
 }
 
 #DX_NavFixed > *{
-  padding: 5px 10px 5px 10px;
+  padding: 10px 20px;
 }
 
-/* JUMBOTRON */
+/*********************BARRA NAVIGAZIONE FREE **************/
+#navfree{
+  padding: 110px 20%;
+}
+
+/* LOGO A SINISTRA */
+#LOGO{
+  line-height: 115px;
+  float: left;
+}
+
+#LOGO img{
+
+}
+
+/* NAVIGATORE LISTA A DESTRA */
+#ListaFree{
+  line-height: 100px;
+  float: right;
+  display: inline-block;
+}
+
+#ListaFree h3{
+  display: inline;
+  padding: 0 20px;
+}
+
+/********************* JUMBOTRON **************************/
 #jumbotron{
   /* DEBUG:  */
   background-color: lightgrey;
   padding: 200px;
-  border: 2px solid
+  border: 2px solid;
+  height: 700px;
   /* DEBUG */
 }
