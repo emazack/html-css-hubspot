@@ -1,1 +1,20 @@
 /* STYLE FILE */
+
+/* REGOLE GENERALE TUTTA PAGINA */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+
+/* NAVIGATOR GENERALE */
+nav{
+  /* DEBUG:  */
+  background-color: grey;
+  padding: 40px;
+  border: 2px solid;
+  /* DEBUG:  */
+}
