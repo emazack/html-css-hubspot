@@ -112,15 +112,47 @@ nav{
 /******************************PARTE CENTRALE  ****************************/
 
 main{
-
 }
 
 /********* Blocco informativo hub about ***********/
 
 #HubAbout{
+  background-color: #edf5f4;
   /* DEBUG:  */
   height: 500px;
-  background-color: lightgrey;
   border: 2px solid black;
   /* DEBUG:  */
+}
+
+/*** Better together ***/
+
+#BetterTogether{
+  padding: 3% 20%;
+  text-align: center
+}
+
+/* IMMAGINE */
+
+#CuboImmagine{
+}
+
+#CuboImmagine img{
+  max-width: 25%;
+  height: auto;
+}
+
+/* Slogan e sottotesto */
+
+#SloganBetterTogether{
+  padding: 3% 20%;
+}
+
+#SloganBetterTogether h2{
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+#SloganBetterTogether p{
+  line-height: 25px;
+  margin-bottom: 30px;
 }
