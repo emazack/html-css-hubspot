@@ -56,7 +56,7 @@ nav{
 
 /*********************BARRA NAVIGAZIONE FREE **************/
 #navfree{
-  padding: 110px 20%;
+  padding: 100px 20%;
 }
 
 /* LOGO A SINISTRA */
@@ -83,10 +83,44 @@ nav{
 
 /********************* JUMBOTRON **************************/
 #jumbotron{
+  height: 925px;
+  background-image: url("../img/jumbotron.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#JumboText{
+  padding: 3% 60% 0 20%;
+}
+
+#JumboText h1{
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+#JumboText p{
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+#JumboText button{
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+/******************************PARTE CENTRALE  ****************************/
+
+main{
+
+}
+
+/********* Blocco informativo hub about ***********/
+
+#HubAbout{
   /* DEBUG:  */
+  height: 500px;
   background-color: lightgrey;
-  padding: 200px;
-  border: 2px solid;
-  height: 700px;
-  /* DEBUG */
+  border: 2px solid black;
+  /* DEBUG:  */
 }
