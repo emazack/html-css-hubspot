@@ -161,38 +161,48 @@ main{
 
 #FreeHubSpot{
   height: 300px;
-  background-color: grey;
-  padding: 0 20%;
+  background-color: white;
+  margin: 0 20%;
 }
 
+/* PARTE BOX SINISTRA */
 #freehubSX{
   /* DEBUG:  */
   float: left;
   /* DEBUG:  */
+  height: 300px;
+  width: 300px;
+  /* background-color: red; */
 }
 
+/* PARTE BOX DESTRA */
 #freehubDX{
   /* DEBUG:  */
   float: left;
 /* DEBUG:  */
+/* background-color: green; */
+height: 300px;
+width: 839px;
 }
 
-#frehubimgbutt{
-  background-color: red;
-  height: 300px;
-  width: 300px;
+/* IMMAGINE CON BOTTONE */
+#freehubimgbutt{
+  /* background-color: red; */
+  text-align: center;
+  padding: 10%;
 }
 
+/* TESTO freehubspot */
 #freehubtext{
-  background-color: green;
-  height: 300px;
-  width: 839px;
+  padding: 3%;
+
 }
 
+/* POPULAR FEATURES */
+#freehubfeatures{
+  padding: 3%;
+}
 
+#freehubfeatures hr{
 
-
-/**** FREE HUBSPOT SX ****/
-
-
-/**** free HUBSPOT DX */
+}
