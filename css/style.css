@@ -114,12 +114,12 @@ nav{
 main{
 }
 
-/********* Blocco informativo hub about ***********/
+/********* Blocco 1 informativo hub about ***********/
 
 #HubAbout{
   background-color: #edf5f4;
   /* DEBUG:  */
-  height: 500px;
+  height: 2000px;
   border: 2px solid black;
   /* DEBUG:  */
 }
@@ -156,3 +156,43 @@ main{
   line-height: 25px;
   margin-bottom: 30px;
 }
+
+/****** Free HubSpot; blocco 2 ******/
+
+#FreeHubSpot{
+  height: 300px;
+  background-color: grey;
+  padding: 0 20%;
+}
+
+#freehubSX{
+  /* DEBUG:  */
+  float: left;
+  /* DEBUG:  */
+}
+
+#freehubDX{
+  /* DEBUG:  */
+  float: left;
+/* DEBUG:  */
+}
+
+#frehubimgbutt{
+  background-color: red;
+  height: 300px;
+  width: 300px;
+}
+
+#freehubtext{
+  background-color: green;
+  height: 300px;
+  width: 839px;
+}
+
+
+
+
+/**** FREE HUBSPOT SX ****/
+
+
+/**** free HUBSPOT DX */
